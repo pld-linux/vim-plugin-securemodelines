@@ -3,11 +3,12 @@
 Summary:	Vim plugin: Secure, user-configurable modeline support for Vim
 Name:		vim-plugin-securemodelines
 Version:	20070518
-Release:	2
+Release:	3
 # same as Vim
 License:	Charityware
 Group:		Applications/Editors/Vim
-Source0:	http://www.vim.org/scripts/download_script.php?src_id=7142
+# Source0Download: http://www.vim.org/scripts/download_script.php?src_id=7142
+Source0:	securemodelines.vim
 # Source0-md5:	0efade2902d7b9142d4bf43f2569ec4d
 URL:		http://www.vim.org/scripts/script.php?script_id=1876
 Requires:	vim-rt >= 4:7.0
