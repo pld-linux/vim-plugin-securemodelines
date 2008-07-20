@@ -1,6 +1,5 @@
-# TODO
-# - pl
 Summary:	Vim plugin: Secure, user-configurable modeline support for Vim
+Summary(pl.UTF-8):	Wtyczka Vima: bezpieczna, konfigurowalna obsługa linii trybów dla Vima
 Name:		vim-plugin-securemodelines
 Version:	20070518
 Release:	3
@@ -17,9 +16,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_vimdatadir	%{_datadir}/vim/vimfiles
 
 %description
-Vim's internal modeline support allows all sorts of annoying and potentially
-insecure options to be set. This script implements a much more heavily
-restricted modeline parser that permits only user-specified options to be set. 
+Vim's internal modeline support allows all sorts of annoying and
+potentially insecure options to be set. This script implements a much
+more heavily restricted modeline parser that permits only
+user-specified options to be set. 
+
+%description -l pl.UTF-8
+Wewnętrzna obsługa linii trybów (modeline) Vima pozwala na włączanie
+dowolonych uciążliwych i potencjalnie niebezpiecznych opcji. Ten
+skrypt jest implementacją dużo bardziej restrykcyjnego analizatora
+linii trybów, pozwalającego na ustawianie tylko opcji określonych
+przez użytkownika.
  
 %prep
 %setup -q -c -T
