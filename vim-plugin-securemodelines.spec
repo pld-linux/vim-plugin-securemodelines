@@ -2,7 +2,7 @@ Summary:	Vim plugin: Secure, user-configurable modeline support for Vim
 Summary(pl.UTF-8):	Wtyczka Vima: bezpieczna, konfigurowalna obsługa linii trybów dla Vima
 Name:		vim-plugin-securemodelines
 Version:	20080424
-Release:	1
+Release:	2
 # same as Vim
 License:	Charityware
 Group:		Applications/Editors/Vim
