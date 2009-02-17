@@ -23,7 +23,8 @@ if (! exists("g:secure_modelines_allowed_items"))
                 \ "readonly",    "ro",   "noreadonly", "noro",
                 \ "rightleft",   "rl",   "norightleft", "norl",
                 \ "spell",
-                \ "spelllang"
+                \ "spelllang",
+                \ "formatoptions", "fo"
                 \ ]
 endif
 
